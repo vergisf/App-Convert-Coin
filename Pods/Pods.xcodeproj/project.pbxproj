@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13BC581554E7E4B267CC01220E755820 /* Pods-App Convert Coin-App Convert CoinUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8ACCCAFB9C0F6238D39ED8DF6632A6 /* Pods-App Convert Coin-App Convert CoinUITests-dummy.m */; };
+		3DE63FEDAEA7896D5E36C1C8FE7CB7D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		5839CBEB1DF96EF5A293B213C66F6E9D /* Pods-App Convert CoinTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF10B801D4B170EB43F492B44C20317 /* Pods-App Convert CoinTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6762724102132C861217B911E70056ED /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A78BF6B03DED20C609704AE7C949C04 /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ADFB626C34AA35AC883469526699F8D /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2DBD197BF8C4A95CF11BB10B92F671 /* iOSDropDown.swift */; };
+		A264F7381A3F59C9538C80126BBA58BB /* Pods-App Convert Coin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2ACD2FC7F7EB69143720FEC679D2CA3 /* Pods-App Convert Coin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D9C3152F0B4AB5A5A09B666F1F2913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		A4FA95B94DB711B80F769418DD4F7157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		ADB25B0CA85EDB514117F98FB72D560A /* Pods-App Convert CoinTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBA9BDA2521C102D674804A788F36DD /* Pods-App Convert CoinTests-dummy.m */; };
+		C312131E6526BFB7C1CB92D93D58FCC7 /* iOSDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 562E1B0CB7AF0F74F35EBD9B634DF54D /* iOSDropDown-dummy.m */; };
+		C9980BB2C99EC955BAB7D09899FACBE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		E16B3202868A5EB932035F3A4D82855D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		E1AB735DA29D08025E34821248E2509B /* Pods-App Convert Coin-App Convert CoinUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E766741A4623E7F43D0A7C23EAED9335 /* Pods-App Convert Coin-App Convert CoinUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2A4BBC474EF7B7B8E6062C87DB9AEBF /* Pods-App Convert Coin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ECA555E18142FDA1B8ACA7E5E02C29 /* Pods-App Convert Coin-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25E5A74A0A8196874F2F949CD6E2A9E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
+			remoteInfo = iOSDropDown;
+		};
+		5A4C5712097E732F087CDF98CA6DA7E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
+			remoteInfo = iOSDropDown;
+		};
+		BFB6A6640F79224B2B53B05594F737E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F95A1B91DCBBCFC84E5347A95104B0;
+			remoteInfo = "Pods-App Convert Coin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A78BF6B03DED20C609704AE7C949C04 /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
+		1EF10B801D4B170EB43F492B44C20317 /* Pods-App Convert CoinTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-App Convert CoinTests-umbrella.h"; sourceTree = "<group>"; };
+		26F3187880A52BFB487620282D39AABF /* Pods-App Convert CoinTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-App Convert CoinTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C1B273B4B09B5385637CAF23E4747FA /* Pods-App Convert CoinTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App Convert CoinTests-Info.plist"; sourceTree = "<group>"; };
+		30ECEF533869080E72B7B7CEC5E1A312 /* Pods-App Convert Coin-App Convert CoinUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-App Convert Coin-App Convert CoinUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3440EE523E49D49075C6EAE0475768C6 /* Pods-App Convert Coin-App Convert CoinUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-App Convert Coin-App Convert CoinUITests.modulemap"; sourceTree = "<group>"; };
+		37D3D4B683714AF6CEB49355ABE107BB /* Pods-App Convert Coin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App Convert Coin.debug.xcconfig"; sourceTree = "<group>"; };
+		47ECA555E18142FDA1B8ACA7E5E02C29 /* Pods-App Convert Coin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-App Convert Coin-dummy.m"; sourceTree = "<group>"; };
+		47F904ADCB33F4AE0B994BC087EE7795 /* Pods-App Convert Coin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-App Convert Coin-frameworks.sh"; sourceTree = "<group>"; };
+		4A2DBD197BF8C4A95CF11BB10B92F671 /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
+		5278E7917E508F046D395BB9CC809344 /* Pods-App Convert Coin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App Convert Coin-acknowledgements.plist"; sourceTree = "<group>"; };
+		562E1B0CB7AF0F74F35EBD9B634DF54D /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
+		56D600160321DFB1E534616613BCEC6E /* Pods_App_Convert_CoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_App_Convert_CoinTests.framework; path = "Pods-App Convert CoinTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB9D7650608CA276A92A7D599C2DE3F /* Pods-App Convert Coin-App Convert CoinUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-App Convert Coin-App Convert CoinUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5FE3FAAF89E5C3D34984F3CC7E26E179 /* iOSDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDropDown-Info.plist"; sourceTree = "<group>"; };
+		617CC48DB72B0196CAB721F17436BC1A /* Pods-App Convert Coin-App Convert CoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App Convert Coin-App Convert CoinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		729F84FC5BA655F8FEFDDB66E2A4582D /* Pods_App_Convert_Coin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_App_Convert_Coin.framework; path = "Pods-App Convert Coin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7874FC6DEF7D7A5931FAC699B576934A /* Pods-App Convert CoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App Convert CoinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A88EAC6E9BFCE0E6D6C39E449D82A4C /* Pods-App Convert CoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App Convert CoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		81B725E3D5F3AEBC3BA616DAF7A764A4 /* Pods-App Convert CoinTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App Convert CoinTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		82298394995B1CBD1245763E4D8B1A9C /* Pods-App Convert Coin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App Convert Coin.release.xcconfig"; sourceTree = "<group>"; };
+		86A1F3A40C64A2F2AFEB930F8668D5CB /* Pods-App Convert Coin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App Convert Coin-Info.plist"; sourceTree = "<group>"; };
+		9420669C835EDE1688398B2D67053AEE /* Pods-App Convert Coin-App Convert CoinUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App Convert Coin-App Convert CoinUITests-Info.plist"; sourceTree = "<group>"; };
+		94DAC13FB5C4DC7EE1283EE61A504098 /* Pods_App_Convert_Coin_App_Convert_CoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_App_Convert_Coin_App_Convert_CoinUITests.framework; path = "Pods-App Convert Coin-App Convert CoinUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FBA9BDA2521C102D674804A788F36DD /* Pods-App Convert CoinTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-App Convert CoinTests-dummy.m"; sourceTree = "<group>"; };
+		A164DC03B0455D08C683B851BB44846A /* Pods-App Convert Coin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-App Convert Coin.modulemap"; sourceTree = "<group>"; };
+		AEF1E14A18DAF2C7B96D3EDCE27874EE /* Pods-App Convert CoinTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-App Convert CoinTests.modulemap"; sourceTree = "<group>"; };
+		B2ACD2FC7F7EB69143720FEC679D2CA3 /* Pods-App Convert Coin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-App Convert Coin-umbrella.h"; sourceTree = "<group>"; };
+		BF58B08E2E4F30F24A42E1F63F109E96 /* iOSDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.release.xcconfig; sourceTree = "<group>"; };
+		C6A203E22246BADE78D1981895E516AA /* iOSDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.debug.xcconfig; sourceTree = "<group>"; };
+		CB77A0B213B8BBCE8DDBEE590C141501 /* Pods-App Convert Coin-App Convert CoinUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App Convert Coin-App Convert CoinUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DE8ACCCAFB9C0F6238D39ED8DF6632A6 /* Pods-App Convert Coin-App Convert CoinUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-App Convert Coin-App Convert CoinUITests-dummy.m"; sourceTree = "<group>"; };
+		E394704805E5E41C40BC600EC788AF71 /* iOSDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDropDown.modulemap; sourceTree = "<group>"; };
+		E6C13CDEE85F3D78FEBED77149C40248 /* Pods-App Convert Coin-App Convert CoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App Convert Coin-App Convert CoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E766741A4623E7F43D0A7C23EAED9335 /* Pods-App Convert Coin-App Convert CoinUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-App Convert Coin-App Convert CoinUITests-umbrella.h"; sourceTree = "<group>"; };
+		E8560D55CF4029E58449E6F7FE8291E3 /* Pods-App Convert Coin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-App Convert Coin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F7C0E7D451DF09B403F4E7B1E4343892 /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
+		FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSDropDown.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DF5A9AC595EB65396B0F7FD3EC355F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE63FEDAEA7896D5E36C1C8FE7CB7D1 /* Foundation.framework in Frameworks */,
+				C9980BB2C99EC955BAB7D09899FACBE6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4071732E43A3FE4BA75F786119446B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16B3202868A5EB932035F3A4D82855D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFB211E45EA51F5A6F76BB740333AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D9C3152F0B4AB5A5A09B666F1F2913 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8864C22C9FFBBE682E4480F722FD7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FA95B94DB711B80F769418DD4F7157 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21EF6C5D45B2AA89511A178597A1BD36 /* Pods-App Convert CoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1E14A18DAF2C7B96D3EDCE27874EE /* Pods-App Convert CoinTests.modulemap */,
+				26F3187880A52BFB487620282D39AABF /* Pods-App Convert CoinTests-acknowledgements.markdown */,
+				81B725E3D5F3AEBC3BA616DAF7A764A4 /* Pods-App Convert CoinTests-acknowledgements.plist */,
+				9FBA9BDA2521C102D674804A788F36DD /* Pods-App Convert CoinTests-dummy.m */,
+				2C1B273B4B09B5385637CAF23E4747FA /* Pods-App Convert CoinTests-Info.plist */,
+				1EF10B801D4B170EB43F492B44C20317 /* Pods-App Convert CoinTests-umbrella.h */,
+				7874FC6DEF7D7A5931FAC699B576934A /* Pods-App Convert CoinTests.debug.xcconfig */,
+				7A88EAC6E9BFCE0E6D6C39E449D82A4C /* Pods-App Convert CoinTests.release.xcconfig */,
+			);
+			name = "Pods-App Convert CoinTests";
+			path = "Target Support Files/Pods-App Convert CoinTests";
+			sourceTree = "<group>";
+		};
+		4304240AA3F97B8DA63732BED71C92CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E394704805E5E41C40BC600EC788AF71 /* iOSDropDown.modulemap */,
+				562E1B0CB7AF0F74F35EBD9B634DF54D /* iOSDropDown-dummy.m */,
+				5FE3FAAF89E5C3D34984F3CC7E26E179 /* iOSDropDown-Info.plist */,
+				F7C0E7D451DF09B403F4E7B1E4343892 /* iOSDropDown-prefix.pch */,
+				1A78BF6B03DED20C609704AE7C949C04 /* iOSDropDown-umbrella.h */,
+				C6A203E22246BADE78D1981895E516AA /* iOSDropDown.debug.xcconfig */,
+				BF58B08E2E4F30F24A42E1F63F109E96 /* iOSDropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOSDropDown";
+			sourceTree = "<group>";
+		};
+		55643AE4516AA78A5CE9DDB4593AF6B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown.framework */,
+				729F84FC5BA655F8FEFDDB66E2A4582D /* Pods_App_Convert_Coin.framework */,
+				94DAC13FB5C4DC7EE1283EE61A504098 /* Pods_App_Convert_Coin_App_Convert_CoinUITests.framework */,
+				56D600160321DFB1E534616613BCEC6E /* Pods_App_Convert_CoinTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60E09F58A4B6EF1F34AC349248B764C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3D57C222983B3ACBD29F20BAE9203E6 /* iOSDropDown */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92D1C67A34B4F6E32BCECA36765D65EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CED277467A7AC64B6EA74AF5C047813 /* Pods-App Convert Coin */,
+				9BB31DC9C161B16B4F9E60EA82D1EC21 /* Pods-App Convert Coin-App Convert CoinUITests */,
+				21EF6C5D45B2AA89511A178597A1BD36 /* Pods-App Convert CoinTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9BB31DC9C161B16B4F9E60EA82D1EC21 /* Pods-App Convert Coin-App Convert CoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3440EE523E49D49075C6EAE0475768C6 /* Pods-App Convert Coin-App Convert CoinUITests.modulemap */,
+				30ECEF533869080E72B7B7CEC5E1A312 /* Pods-App Convert Coin-App Convert CoinUITests-acknowledgements.markdown */,
+				CB77A0B213B8BBCE8DDBEE590C141501 /* Pods-App Convert Coin-App Convert CoinUITests-acknowledgements.plist */,
+				DE8ACCCAFB9C0F6238D39ED8DF6632A6 /* Pods-App Convert Coin-App Convert CoinUITests-dummy.m */,
+				5CB9D7650608CA276A92A7D599C2DE3F /* Pods-App Convert Coin-App Convert CoinUITests-frameworks.sh */,
+				9420669C835EDE1688398B2D67053AEE /* Pods-App Convert Coin-App Convert CoinUITests-Info.plist */,
+				E766741A4623E7F43D0A7C23EAED9335 /* Pods-App Convert Coin-App Convert CoinUITests-umbrella.h */,
+				E6C13CDEE85F3D78FEBED77149C40248 /* Pods-App Convert Coin-App Convert CoinUITests.debug.xcconfig */,
+				617CC48DB72B0196CAB721F17436BC1A /* Pods-App Convert Coin-App Convert CoinUITests.release.xcconfig */,
+			);
+			name = "Pods-App Convert Coin-App Convert CoinUITests";
+			path = "Target Support Files/Pods-App Convert Coin-App Convert CoinUITests";
+			sourceTree = "<group>";
+		};
+		9CED277467A7AC64B6EA74AF5C047813 /* Pods-App Convert Coin */ = {
+			isa = PBXGroup;
+			children = (
+				A164DC03B0455D08C683B851BB44846A /* Pods-App Convert Coin.modulemap */,
+				E8560D55CF4029E58449E6F7FE8291E3 /* Pods-App Convert Coin-acknowledgements.markdown */,
+				5278E7917E508F046D395BB9CC809344 /* Pods-App Convert Coin-acknowledgements.plist */,
+				47ECA555E18142FDA1B8ACA7E5E02C29 /* Pods-App Convert Coin-dummy.m */,
+				47F904ADCB33F4AE0B994BC087EE7795 /* Pods-App Convert Coin-frameworks.sh */,
+				86A1F3A40C64A2F2AFEB930F8668D5CB /* Pods-App Convert Coin-Info.plist */,
+				B2ACD2FC7F7EB69143720FEC679D2CA3 /* Pods-App Convert Coin-umbrella.h */,
+				37D3D4B683714AF6CEB49355ABE107BB /* Pods-App Convert Coin.debug.xcconfig */,
+				82298394995B1CBD1245763E4D8B1A9C /* Pods-App Convert Coin.release.xcconfig */,
+			);
+			name = "Pods-App Convert Coin";
+			path = "Target Support Files/Pods-App Convert Coin";
+			sourceTree = "<group>";
+		};
+		A3D57C222983B3ACBD29F20BAE9203E6 /* iOSDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				4A2DBD197BF8C4A95CF11BB10B92F671 /* iOSDropDown.swift */,
+				4304240AA3F97B8DA63732BED71C92CD /* Support Files */,
+			);
+			name = iOSDropDown;
+			path = iOSDropDown;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				60E09F58A4B6EF1F34AC349248B764C0 /* Pods */,
+				55643AE4516AA78A5CE9DDB4593AF6B7 /* Products */,
+				92D1C67A34B4F6E32BCECA36765D65EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7179B49C55C2C4F4F96262098586B496 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AB735DA29D08025E34821248E2509B /* Pods-App Convert Coin-App Convert CoinUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7978EDA285D1E63798A0AA80AAA0499A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5839CBEB1DF96EF5A293B213C66F6E9D /* Pods-App Convert CoinTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8003AE46438745245C433FAA21AE98F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A264F7381A3F59C9538C80126BBA58BB /* Pods-App Convert Coin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A905842D7F38038C5AE524E9DF7789 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6762724102132C861217B911E70056ED /* iOSDropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A476A331E996DC82BDA1CD0E8A43F8B6 /* Build configuration list for PBXNativeTarget "iOSDropDown" */;
+			buildPhases = (
+				93A905842D7F38038C5AE524E9DF7789 /* Headers */,
+				51ADBD82176C61B9136F2C18746D6E55 /* Sources */,
+				25DF5A9AC595EB65396B0F7FD3EC355F /* Frameworks */,
+				4F2761F0F0D962265232D9EE899A184E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDropDown;
+			productName = iOSDropDown;
+			productReference = FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6BB8CACB23D8EDC2D051B34E4CC25715 /* Pods-App Convert Coin-App Convert CoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DCD4A2113349AE6FA8248E212ACFAE /* Build configuration list for PBXNativeTarget "Pods-App Convert Coin-App Convert CoinUITests" */;
+			buildPhases = (
+				7179B49C55C2C4F4F96262098586B496 /* Headers */,
+				32BE0A7D23DD4BC1A4E61BB380634FD9 /* Sources */,
+				2C4071732E43A3FE4BA75F786119446B /* Frameworks */,
+				FED705F07562ABC1EB5FD55B8A27E6D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				433198057711BD38EB20E69AB603B282 /* PBXTargetDependency */,
+			);
+			name = "Pods-App Convert Coin-App Convert CoinUITests";
+			productName = "Pods-App Convert Coin-App Convert CoinUITests";
+			productReference = 94DAC13FB5C4DC7EE1283EE61A504098 /* Pods_App_Convert_Coin_App_Convert_CoinUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		72F95A1B91DCBBCFC84E5347A95104B0 /* Pods-App Convert Coin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16247D101CFC6316192DB9EC3D124B4 /* Build configuration list for PBXNativeTarget "Pods-App Convert Coin" */;
+			buildPhases = (
+				8003AE46438745245C433FAA21AE98F2 /* Headers */,
+				F45DC1ABD77E5A3B13BD15A54F8A54DA /* Sources */,
+				3CFB211E45EA51F5A6F76BB740333AF5 /* Frameworks */,
+				DC747FB174B0BEFBF28F413C4FD8B608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C568C1B5B339D41BA0E4D1DE3412B12E /* PBXTargetDependency */,
+			);
+			name = "Pods-App Convert Coin";
+			productName = "Pods-App Convert Coin";
+			productReference = 729F84FC5BA655F8FEFDDB66E2A4582D /* Pods_App_Convert_Coin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC0E02172B8F5520636FB300198E764B /* Pods-App Convert CoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A288BFB72A0118F53703B6714D0D08 /* Build configuration list for PBXNativeTarget "Pods-App Convert CoinTests" */;
+			buildPhases = (
+				7978EDA285D1E63798A0AA80AAA0499A /* Headers */,
+				7C9651909A14CAA7A796A904D633BF4E /* Sources */,
+				F8864C22C9FFBBE682E4480F722FD7F9 /* Frameworks */,
+				DD857884152E4DDB18C1D8CC09C1D999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F4F0CA87B87AEF51A6238A4B00E72A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-App Convert CoinTests";
+			productName = "Pods-App Convert CoinTests";
+			productReference = 56D600160321DFB1E534616613BCEC6E /* Pods_App_Convert_CoinTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 55643AE4516AA78A5CE9DDB4593AF6B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */,
+				72F95A1B91DCBBCFC84E5347A95104B0 /* Pods-App Convert Coin */,
+				6BB8CACB23D8EDC2D051B34E4CC25715 /* Pods-App Convert Coin-App Convert CoinUITests */,
+				BC0E02172B8F5520636FB300198E764B /* Pods-App Convert CoinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F2761F0F0D962265232D9EE899A184E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC747FB174B0BEFBF28F413C4FD8B608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD857884152E4DDB18C1D8CC09C1D999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED705F07562ABC1EB5FD55B8A27E6D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BE0A7D23DD4BC1A4E61BB380634FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BC581554E7E4B267CC01220E755820 /* Pods-App Convert Coin-App Convert CoinUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51ADBD82176C61B9136F2C18746D6E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C312131E6526BFB7C1CB92D93D58FCC7 /* iOSDropDown-dummy.m in Sources */,
+				6ADFB626C34AA35AC883469526699F8D /* iOSDropDown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9651909A14CAA7A796A904D633BF4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB25B0CA85EDB514117F98FB72D560A /* Pods-App Convert CoinTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45DC1ABD77E5A3B13BD15A54F8A54DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A4BBC474EF7B7B8E6062C87DB9AEBF /* Pods-App Convert Coin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		433198057711BD38EB20E69AB603B282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDropDown;
+			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
+			targetProxy = 25E5A74A0A8196874F2F949CD6E2A9E9 /* PBXContainerItemProxy */;
+		};
+		5F4F0CA87B87AEF51A6238A4B00E72A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-App Convert Coin";
+			target = 72F95A1B91DCBBCFC84E5347A95104B0 /* Pods-App Convert Coin */;
+			targetProxy = BFB6A6640F79224B2B53B05594F737E4 /* PBXContainerItemProxy */;
+		};
+		C568C1B5B339D41BA0E4D1DE3412B12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDropDown;
+			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
+			targetProxy = 5A4C5712097E732F087CDF98CA6DA7E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032E3ADAD9C8B7F4C0B9869E3CF14231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C13CDEE85F3D78FEBED77149C40248 /* Pods-App Convert Coin-App Convert CoinUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-App Convert Coin-App Convert CoinUITests/Pods-App Convert Coin-App Convert CoinUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-App Convert Coin-App Convert CoinUITests/Pods-App Convert Coin-App Convert CoinUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33EE21E4239678779EFF21BFB3C5B37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF58B08E2E4F30F24A42E1F63F109E96 /* iOSDropDown.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDropDown/iOSDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
+				PRODUCT_MODULE_NAME = iOSDropDown;
+				PRODUCT_NAME = iOSDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DE0DA61D5125584E040471189EDB68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82298394995B1CBD1245763E4D8B1A9C /* Pods-App Convert Coin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-App Convert Coin/Pods-App Convert Coin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-App Convert Coin/Pods-App Convert Coin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40FA2EEBE2E55735938BB2FCBD83D35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A203E22246BADE78D1981895E516AA /* iOSDropDown.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDropDown/iOSDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
+				PRODUCT_MODULE_NAME = iOSDropDown;
+				PRODUCT_NAME = iOSDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57E2258C77404A6A63BE5F8B73374A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A88EAC6E9BFCE0E6D6C39E449D82A4C /* Pods-App Convert CoinTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-App Convert CoinTests/Pods-App Convert CoinTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-App Convert CoinTests/Pods-App Convert CoinTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62D6CAFCE82D86CA4243FE689943563A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D3D4B683714AF6CEB49355ABE107BB /* Pods-App Convert Coin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-App Convert Coin/Pods-App Convert Coin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-App Convert Coin/Pods-App Convert Coin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		684DA5564B6BCEB97853C31EE5961CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7874FC6DEF7D7A5931FAC699B576934A /* Pods-App Convert CoinTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-App Convert CoinTests/Pods-App Convert CoinTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-App Convert CoinTests/Pods-App Convert CoinTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DD62345D69D192C14436276BDE4A1539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617CC48DB72B0196CAB721F17436BC1A /* Pods-App Convert Coin-App Convert CoinUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-App Convert Coin-App Convert CoinUITests/Pods-App Convert Coin-App Convert CoinUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-App Convert Coin-App Convert CoinUITests/Pods-App Convert Coin-App Convert CoinUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A288BFB72A0118F53703B6714D0D08 /* Build configuration list for PBXNativeTarget "Pods-App Convert CoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684DA5564B6BCEB97853C31EE5961CC4 /* Debug */,
+				57E2258C77404A6A63BE5F8B73374A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A476A331E996DC82BDA1CD0E8A43F8B6 /* Build configuration list for PBXNativeTarget "iOSDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FA2EEBE2E55735938BB2FCBD83D35F /* Debug */,
+				33EE21E4239678779EFF21BFB3C5B37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DCD4A2113349AE6FA8248E212ACFAE /* Build configuration list for PBXNativeTarget "Pods-App Convert Coin-App Convert CoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032E3ADAD9C8B7F4C0B9869E3CF14231 /* Debug */,
+				DD62345D69D192C14436276BDE4A1539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C16247D101CFC6316192DB9EC3D124B4 /* Build configuration list for PBXNativeTarget "Pods-App Convert Coin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D6CAFCE82D86CA4243FE689943563A /* Debug */,
+				3DE0DA61D5125584E040471189EDB68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

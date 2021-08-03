@@ -1,0 +1,6 @@
+framework module Pods_App_Convert_Coin_App_Convert_CoinUITests {
+  umbrella header "Pods-App Convert Coin-App Convert CoinUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
